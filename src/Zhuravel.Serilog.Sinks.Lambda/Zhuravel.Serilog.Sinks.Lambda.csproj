@@ -4,10 +4,14 @@
     <TargetFramework>netstandard1.3</TargetFramework>
     <AssemblyName>Zhuravel.Serilog.Sinks.Lambda</AssemblyName>
     <RootNamespace>Zhuravel.Serilog.Sinks.Lambda</RootNamespace>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
