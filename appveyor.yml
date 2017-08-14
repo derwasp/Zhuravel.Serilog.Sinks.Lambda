@@ -1,5 +1,5 @@
 build_script:
-  - cmd: build.cmd
+  - cmd: build.cmd PushNuget
 test: off
 nuget:
   account_feed: false

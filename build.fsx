@@ -97,16 +97,12 @@ Target "PushNuget" <| fun _ ->
     |> Seq.iter pushPackage
     ProcessHelper.enableProcessTracing <- true
 
-Target "All" DoNothing
-
 "Trace"
 ==> "Clean"
 ==> "SetVersion"
 ==> "Restore"
 ==> "Compile"
-
-"Compile" ==> "Package"
-
-"Package" ==> "All"
+==> "Package"
+==> "PushNuget"
 
 RunTargetOrDefault "Package"
