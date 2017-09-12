@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <AssemblyName>Zhuravel.Serilog.Sinks.Lambda</AssemblyName>
-    <RootNamespace>Zhuravel.Serilog.Sinks.Lambda</RootNamespace>
+    <RootNamespace>Serilog.Sinks.Lambda</RootNamespace>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>

@@ -1,13 +1,12 @@
 ﻿using System;
 
-using Serilog;
 using Serilog.Configuration;
 using Serilog.Core;
 using Serilog.Events;
 using Serilog.Formatting;
 using Serilog.Formatting.Display;
 
-namespace Zhuravel.Serilog.Sinks.Lambda
+namespace Serilog.Sinks.Lambda
 {
     public static class SerilogLambdaSinkConfigurationExtensions
     {

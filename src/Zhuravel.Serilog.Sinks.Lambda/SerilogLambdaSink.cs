@@ -7,7 +7,7 @@ using Serilog.Core;
 using Serilog.Events;
 using Serilog.Formatting;
 
-namespace Zhuravel.Serilog.Sinks.Lambda
+namespace Serilog.Sinks.Lambda
 {
     internal sealed class SerilogLambdaSink : ILogEventSink
     {
